@@ -35,11 +35,14 @@ public class StudentRestController {
 		
 		Student student4 = new Student("Dhanush","Rapeti");
 		
+		Student student5 = new Student("Sunil", "Rapeti");
+		
 		
 		studentList.add(student1);
 		studentList.add(student2);
 		studentList.add(student3);
 		studentList.add(student4);
+		studentList.add(student5);
 	}
 	
 	// create an endpoint or api/students - to get all student data
