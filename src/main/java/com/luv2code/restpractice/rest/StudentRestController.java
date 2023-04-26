@@ -59,7 +59,7 @@ public class StudentRestController {
 		}
 		
 		Student student = studentList.get(studentId);
-		System.out.println("Student at index "+ studentId +" is: \n"+ student);
+		System.out.println("Student at index: will be adsde "+ studentId +" is: \n"+ student);
 		return student;
 	}
 	
